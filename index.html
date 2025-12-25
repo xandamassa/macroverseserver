@@ -45,6 +45,7 @@ body {
   gap: 20px;
 }
 
+/* Transições gerais das imagens */
 .gallery img {
   width: 100%;
   height: auto;
@@ -68,6 +69,7 @@ body {
     opacity 0.45s ease;
 }
 
+/* Destaca a imagem em hover */
 .gallery img:hover {
   filter: brightness(1);
   opacity: 1;
@@ -76,7 +78,7 @@ body {
   z-index: 2;
 }
 
-/* Quando qualquer imagem está sendo hover, escurece as outras */
+/* Escurece apenas as imagens que NÃO estão sendo hover */
 .gallery:hover img:not(:hover) {
   filter: brightness(0.55);
   opacity: 0.7;
