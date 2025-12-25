@@ -13,18 +13,22 @@
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  background: radial-gradient(circle at 20% 30%, #ff6b6b, transparent 25%),
-              radial-gradient(circle at 70% 70%, #ffb86c, transparent 25%),
-              radial-gradient(circle at 50% 50%, #6bffb8, transparent 25%);
-  background-size: 200% 200%;
-  animation: lavaLamp 20s infinite linear;
-}
-
-@keyframes lavaLamp {
-  0% { background-position: 0% 0%, 0% 100%, 100% 50%; }
-  50% { background-position: 100% 100%, 50% 0%, 0% 100%; }
-  100% { background-position: 0% 0%, 0% 100%, 100% 50%; }
-}
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(
+        135deg,
+        #050508,
+        #12081f,
+        #2f145f,
+        #4a1a7a,
+        #2f145f,
+        #12081f,
+        #050508
+      );
+      background-size: 500% 500%;
+      animation: backgroundBreath 18s ease-in-out infinite;
+      color: #ffffff;
+      min-height: 100vh;
+    }
 
 /* Header básico */
 header {
