@@ -74,13 +74,14 @@
   </header>
 
   <main>
-    <section class="gallery">
-<img src="images/estasia.png" alt="" />
-<img src="images/damian_rutfelt_o_homem_gato.jfif" alt="" />
-<img src="images/estrutura_vigas_ferreas.jfif" alt="" />
-<img src="images/o_ioio_de_jade.jfif" alt="" />
-    </section>
-  </main>
+  <section class="gallery">
+    <img src="images/estasia.png" alt="" />
+    <img src="images/damian_rutfelt_o_homem_gato.jfif" alt="" />
+    <img src="images/estrutura_vigas_ferreas.jfif" alt="" />
+    <img src="images/o_ioio_de_jade.jfif" alt="" />
+  </section>
+</main>
+
 
   <footer>
     © 2025 • macroverseserver
