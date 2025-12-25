@@ -118,13 +118,13 @@ header h1 {
   text-shadow: 2px 2px 8px rgba(80, 0, 120, 0.7);
 }
 
-/* Efeito de lâmina no subtítulo */
+
 header p {
   font-family: 'Cinzel Decorative', serif;
   font-size: 1.5rem;
   letter-spacing: 1px;
   margin-top: 0;
-  display: block; /* garante que fique embaixo do h1 */
+  display: block;
   background: linear-gradient(120deg, #d1c1ff 30%, #ffffff 50%, #d1c1ff 70%);
   background-size: 200% 100%;
   -webkit-background-clip: text;
@@ -133,7 +133,6 @@ header p {
   text-shadow: 1px 1px 6px rgba(80, 0, 120, 0.5);
 }
     
-/* Botão dentro do header */
 header button {
   font-family: 'Cinzel Decorative', serif;
   font-size: 1rem;
@@ -144,10 +143,13 @@ header button {
   color: #d1c1ff;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-left: 0;      /* garante alinhamento à esquerda */
-  margin-top: 10px;    /* dá um espaçamento do subtítulo */
+
+  
   display: inline-block;
+  margin-top: 10px;
+  margin-left: 0;
 }
+
 
 header button:hover {
   background: rgba(209, 193, 255, 0.2);
