@@ -48,8 +48,27 @@ body {
   display: block;
   border-radius: 12px;
   background: transparent;
-  transition: transform 0.45s ease, box-shadow 0.45s ease;
+  transition:
+    transform 0.45s ease,
+    box-shadow 0.45s ease,
+    filter 0.45s ease,
+    opacity 0.45s ease;
   cursor: pointer;
+}
+
+    /* Escurece levemente todas quando o mouse entra na galeria */
+.gallery:hover img {
+  filter: brightness(0.55);
+  opacity: 0.7;
+}
+
+/* Mantém a imagem em foco destacada */
+.gallery img:hover {
+  filter: brightness(1);
+  opacity: 1;
+  transform: scale(1.25);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.7);
+  z-index: 2;
 }
 
 .gallery img:hover {
