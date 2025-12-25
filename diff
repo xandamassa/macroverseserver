@@ -75,12 +75,10 @@
 
   <main>
     <section class="gallery">
-      <img src="https://picsum.photos/600/400?random=1" alt="Imagem 1" />
-      <img src="https://picsum.photos/600/400?random=2" alt="Imagem 2" />
-      <img src="https://picsum.photos/600/400?random=3" alt="Imagem 3" />
-      <img src="https://picsum.photos/600/400?random=4" alt="Imagem 4" />
-      <img src="https://picsum.photos/600/400?random=5" alt="Imagem 5" />
-      <img src="https://picsum.photos/600/400?random=6" alt="Imagem 6" />
+<img src="images/estasia.png" alt="" />
+<img src="images/damian_rutfelt_o_homem_gato.jfif" alt="" />
+<img src="images/estrutura_vigas_ferreas.jfif" alt="" />
+<img src="imagem/o_ioio_de_jade.jfif" alt="" />
     </section>
   </main>
 
