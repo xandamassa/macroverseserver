@@ -30,18 +30,18 @@
 
 /* Modal geral */
 .modal {
-  display: none; /* escondido inicialmente */
+  display: none;
   position: fixed;
   z-index: 10;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
-  backdrop-filter: blur(5px); /* desfoca o fundo */
-  background-color: rgba(0,0,0,0.5); /* sombra leve */
   justify-content: center;
-  align-items: center;
+  align-items: flex-start; /* muda o alinhamento vertical */
+  padding-top: 100px; /* afasta do topo da tela */
+  backdrop-filter: blur(5px);
+  background-color: rgba(0,0,0,0.5);
 }
 
 /* Conteúdo do modal */
